@@ -117,3 +117,8 @@ REST_FRAMEWORK = {
 
 
 CORS_ALLOW_ALL_ORIGINS = True
+
+STATIC_ROOT = BASE_DIR / "staticfiles"
+
+LOGIN_REDIRECT_URL = "/api/v1/queues/"
+LOGOUT_REDIRECT_URL = "/"
